@@ -31,14 +31,6 @@ data/external/
 *.parquet
 !data/*.csv   # если хотите включить небольшие примеры
 
-# Outputs and figures 
-outputs/
-figures/
-*.png
-*.jpg
-*.pdf
-*.svg
-
 # IDE
 .vscode/
 .idea/
