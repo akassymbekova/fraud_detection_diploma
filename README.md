@@ -32,11 +32,25 @@ An end-to-end machine learning system for detecting fraudulent financial transac
 
 | Metric | Score |
 |---|---|
-| PR-AUC | 0.606 |
+| PR-AUC | 0.906 |
 | ROC-AUC | ~0.929 |
 | ECE (calibration) | 0.007 |
 
 All metrics evaluated on a strictly held-out, chronologically later test set.
+
+### Visualizations
+
+#### Model Improvement Path
+![Model Improvement Path](figures/ablation_study.png)
+
+#### PR Curve
+![PR Curve](figures/pr_curve_final.png)
+
+#### SHAP SUMMARY
+![SHAP SUMMARY](figures/ieee_shap_summary_best_model.png)
+
+#### Confusion Matrix (test set)
+![Confusion Matrix](figures/confusion_matrix_final.png)
 
 ## Architecture
 
